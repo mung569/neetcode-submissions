@@ -1,4 +1,5 @@
 class Solution {
+    // *Optimal solution*
     public int[] getConcatenation(int[] nums) {
         int length = nums.length * 2;
         int[] ans = new int[length];
