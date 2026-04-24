@@ -21,6 +21,9 @@ class MinStack {
     }
     
     public int top() {
+        if (top < 0) {
+            throw new EmptyStackException();
+        }
         return stack[top];
     }
     
